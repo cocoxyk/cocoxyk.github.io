@@ -169,6 +169,35 @@
             box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
         }
 
+        .edu-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(221, 160, 221, 0.3);
+        }
+
+        .edu-item:last-child {
+            border-bottom: none;
+        }
+
+        .edu-year {
+            font-size: 0.9rem;
+            color: #da70d6;
+            font-weight: 500;
+        }
+
+        .edu-degree {
+            font-size: 1.1rem;
+            color: #8b4789;
+            font-weight: 600;
+        }
+
+        .edu-school {
+            font-size: 1rem;
+            color: #7a7a9a;
+        }
+
         /* Contact Section */
         .contact {
             padding: 5rem 2rem;
@@ -304,10 +333,20 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-card">
-                <p>Xiamen University, 2025 - Finance</p>
-                <div class="university">
-                    <span>🎓</span>
-                    <span>Xiamen University</span>
+                <div class="edu-item">
+                    <span class="edu-year">2025 - Present</span>
+                    <span class="edu-degree">Finance PhD</span>
+                    <span class="edu-school">Xiamen University</span>
+                </div>
+                <div class="edu-item">
+                    <span class="edu-year">2022 - 2025</span>
+                    <span class="edu-degree">Accounting Master</span>
+                    <span class="edu-school">Xiamen University</span>
+                </div>
+                <div class="edu-item">
+                    <span class="edu-year">2017 - 2021</span>
+                    <span class="edu-degree">Accounting Bachelor</span>
+                    <span class="edu-school">Shandong University</span>
                 </div>
             </div>
         </div>
